@@ -1,0 +1,21 @@
+Python 3.x
+Django 3.x
+
+## Configuration
+
+	1. Create a .env file in the project root and set the following environment variables:
+
+		SECRET_KEY=your_secret_key
+		DEBUG=True
+
+	2. Configure any other settings in the settings.py file.
+
+## Data
+
+	. The ./data/responses.txt file contains patterns and corresponding bot responses.
+
+## Notes
+	
+	. Make sure to customize the SECRET_KEY and other settings in the .env file for security in a production environment.
+
+   	. Additional configuration details can be found in the settings.py file.
